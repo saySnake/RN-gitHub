@@ -8,6 +8,7 @@ import PopularPage from '../page/PopularPage';
 import TrendingPage from '../page/TrendingPage';
 import MyPage from '../page/MyPage';
 import WelcomePage from '../page/WelcomePage';
+import DetailPage from '../page/DetailPage';
 
 const  InitNavigator =createStackNavigator(
     {
@@ -27,7 +28,8 @@ const  MainNavigator =createStackNavigator(
             navigationOptions:{
                 header:null,
             }
-        }
+        },
+        DetailPage:DetailPage,
     }
 );
 
